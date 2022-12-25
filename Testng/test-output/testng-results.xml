@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-23T17:41:31 IST" name="Default suite" finished-at="2022-12-23T17:41:35 IST" duration-ms="4278">
+    <groups>
+    </groups>
+    <test started-at="2022-12-23T17:41:31 IST" name="Default test" finished-at="2022-12-23T17:41:35 IST" duration-ms="4278">
+      <class name="com.Parameters.ParameterTest">
+        <test-method signature="yahooLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Parameters.ParameterTest@2177849e]" started-at="2022-12-23T17:41:31 IST" name="yahooLoginTest" finished-at="2022-12-23T17:41:35 IST" duration-ms="4149" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.facebook.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[danvivek06@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooLoginTest -->
+      </class> <!-- com.Parameters.ParameterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

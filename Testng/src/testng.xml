@@ -1,0 +1,12 @@
+<suite name="softwaretestingmaterial">
+	<test name="testngTest">
+		<classes>
+			<class name="com.test.ExceptionTimeOutTest" />
+		    <class name="com.test.Googletest" />
+		    <class name="com.test.GoogleTitleTest" />
+		    <class name="com.test.InvocationCountTest" />
+		    <class name="com.test.Testng1" />
+		    <class name="com.test.TestNgFeatures" />
+		</classes>
+	</test>
+</suite>

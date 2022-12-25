@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="yahoo">
+	<test name="yahooTest">
+	
+	<parameter name ="env" value="QA"/>
+	<parameter name ="browser" value="chrome"/>
+	<parameter name="url" value="http://www.facebook.com"/>
+	<parameter name="emailId" value="danvivek06@gmail.com"/>
+	
+		<classes>
+			<class name="com.Parameters.ParameterTest" />
+		    
+		</classes>
+	</test>
+</suite>
